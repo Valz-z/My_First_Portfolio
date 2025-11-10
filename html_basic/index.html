@@ -3,7 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Learners Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9fafb;
+            color: #333;
+        }
+        header ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 0;
+        }
+        header a {
+            text-decoration: none;
+            color: #0077cc;
+            font-weight: bold;
+        }
+        article {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #0077cc;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -16,19 +63,14 @@
 
     <main>
         <article>
-
             <h1>Welcome to My Webpage</h1>
-
             <p>This is the first paragraph providing an introduction to the topic discussed on this page.</p>
 
             <h2>About This Page</h2>
-
             <p>This paragraph explains the purpose of the webpage and gives a brief overview of its content.</p>
 
             <h3>Details and Features</h3>
-
             <p>Here we dive deeper into specific features or aspects of the topic, giving the reader more context.</p>
-
             <p>Finally, this paragraph summarizes the information and may provide a call-to-action or next steps.</p>
 
             <a href="https://www.example.com" target="_blank">
@@ -36,6 +78,42 @@
             </a>
 
             <p><a href="https://x.com/Valzzz01/status/1926334706695471304">My Favorite Tweet Quote</a></p>
+
+            <!-- 🧑‍🎓 Learners Table Section -->
+            <div class="learners-table">
+                <h3>Our Learners</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>25</td>
+                            <td>USA</td>
+                        </tr>
+                        <tr>
+                            <td>Emily</td>
+                            <td>28</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <td>Michael</td>
+                            <td>32</td>
+                            <td>Australia</td>
+                        </tr>
+                        <tr>
+                            <td>Sophia</td>
+                            <td>21</td>
+                            <td>UK</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
         </article>
 
